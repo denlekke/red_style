@@ -112,7 +112,7 @@ img {
     border: none;
 }
 img[src='static/common/symbols/disabled.png'] {
-	background: url('./images/user-icons/disabled.png') no-repeat scroll 0 0 transparent;
+	background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/user-icons/disabled.png') no-repeat scroll 0 0 transparent;
 	background-size: 100%;
 	height: 15px !important;
 	padding-right: 15px !important;
@@ -122,7 +122,7 @@ img[src='static/common/symbols/disabled.png'] {
 	margin-left: 2px;
 }
 img[src='static/common/symbols/warned.png'] {
-    content: url('./images/user-icons/warned.png') no-repeat scroll 0 0 transparent;
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/user-icons/warned.png') no-repeat scroll 0 0 transparent;
     height: 16px;
     width: 16px;
     margin-top: -2px;
@@ -132,7 +132,7 @@ img[src='static/common/symbols/warned.png'] {
 }
 img[src='static/common/symbols/contest.png']
 {
-    background: url('./images/user-icons/contest.png') no-repeat scroll 0 0 transparent;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/user-icons/contest.png') no-repeat scroll 0 0 transparent;
     background-size: 100%;
     height: 16px !important;
     margin-top: -2px;
@@ -142,7 +142,7 @@ img[src='static/common/symbols/contest.png']
     box-sizing: border-box;
 }
 img[src='static/common/avatars/default.png']{
-    content: url('./images/light-on-dark/default-avatar.png')
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/light-on-dark/default-avatar.png')
 }
 strong, b {
     font-weight: 400 !important;
@@ -273,7 +273,7 @@ ul.thin li {
     border: none;
     width: auto;
     height: 80px;
-    background: url('./images/dark-on-light/logo.png') no-repeat top left;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/dark-on-light/logo.png') no-repeat top left;
     background-size: auto 80px;
     display: block;
     margin-left: 0;
@@ -375,7 +375,7 @@ ul.thin li {
     position: relative;
     top: -133px;
     right: 60px;
-    background: url('./images/menu/freeleech-sprite.png');
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/menu/freeleech-sprite.png');
     background-position: 0 8px !important;
     background-repeat: no-repeat;
     background-size: 50px auto !important;
@@ -390,13 +390,13 @@ ul.thin li {
     transition: color 0.2s;
 }
 #nav_Free a:hover {
-    background: url('./images/menu/freeleech-sprite.png') !important;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/menu/freeleech-sprite.png') !important;
     background-position: 0 91px !important;
     background-size: 50px auto !important;
     color: #959ea8 !important;
 }
 #nav_Free a:active {
-    background: url('./images/menu/freeleech-sprite.png') !important;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/menu/freeleech-sprite.png') !important;
     background-position: 0 49px !important;
     background-size: 50px auto !important;
     color: #808890 !important;
@@ -421,20 +421,20 @@ ul.thin li {
     font-weight: 700 !important;
     font-size: 10px;
     text-align: center;
-    background: url('./images/menu/staff-sprite.png');
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/menu/staff-sprite.png');
     background-position: 0 8px;
     background-size: 50px auto !important;
     transition: color 0.2s;
 }
 #nav_staff a:hover {
     color: #959ea8;
-    background: url('./images/menu/staff-sprite.png') !important;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/menu/staff-sprite.png') !important;
     background-position: 0 91px !important;
     background-size: 50px auto !important;
 }
 #nav_staff a:active {
     color: #808890;
-    background: url('./images/menu/staff-sprite.png');
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/menu/staff-sprite.png');
     background-position: 0 48px !important;
     background-size: 50px auto !important;
 }
@@ -478,53 +478,53 @@ ul.thin li {
     transition: color 0.2s;
 }
 #userinfo_major #nav_upload {
-    background: url('./images/menu/upload-sprite.png');
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/menu/upload-sprite.png');
     background-position: 0px 6px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_upload a:hover {
     color: #959ea8;
-    background: url('./images/menu/upload-sprite.png');
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/menu/upload-sprite.png');
     background-position: 0 90px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_upload a:active {
     color: #808890;
-    background: url('./images/menu/upload-sprite.png');
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/menu/upload-sprite.png');
     background-position: 0 48px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite {
-    background: url('./images/menu/invite-sprite.png');
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/menu/invite-sprite.png');
     background-position: 0px 6px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a:hover {
     color: #959ea8;
-    background: url('./images/menu/invite-sprite.png');
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/menu/invite-sprite.png');
     background-position: 0 90px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a:active {
     color: #808890;
-    background: url('./images/menu/invite-sprite.png');
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/menu/invite-sprite.png');
     background-position: 0 48px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_donate {
-    background: url('./images/menu/donate-sprite.png');
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/menu/donate-sprite.png');
     background-position: 0px 6px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_donate a:hover {
     color: #959ea8;
-    background: url('./images/menu/donate-sprite.png');
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/menu/donate-sprite.png');
     background-position: 0 90px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_donate a:active {
     color: #808890;
-    background: url('./images/menu/donate-sprite.png');
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/menu/donate-sprite.png');
     background-position: 0 48px;
     background-size: 50px auto !important;
 }
@@ -663,7 +663,7 @@ ul.thin li {
     height: 49px;
     line-height: 50px !important;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-    background: url('./images/caret-light.png') center center no-repeat #FC2E62;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/caret-light.png') center center no-repeat #FC2E62;
     background-size: 30px auto;
 }
 #userinfo_minor:hover, #userinfo_minor:focus, #userinfo_minor:active {
@@ -671,7 +671,7 @@ ul.thin li {
     height: 48px !important;
     border-top: 1px solid rgba(255, 255, 255, 0);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    background: url('./images/caret-dark.png') center center no-repeat #fff;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/caret-dark.png') center center no-repeat #fff;
     background-size: 30px auto;
     transition: background 0.4s;
 }
@@ -727,9 +727,10 @@ ul.thin li {
     margin-bottom: 2px !important;
 }
 #searchbars {
+    box-sizing: border-box;
     width: 898px;
     height: 34px;
-    padding: 8px 0;
+    padding: 8px 2px;
     border: 1px solid rgba(0, 0, 0, 0.07);
     background: rgba(24, 32, 41, 0.05);
     background-image: none; /* removed magnifying glass */
@@ -786,10 +787,10 @@ ul.thin li {
     list-style: none;
 }
 #searchbars ul li:first-child {
-    margin-left: 2px; /* keep a small left gutter */
+    margin-left: 0;
 }
 #searchbars ul li:last-child {
-    margin-right: 2px; /* keep a matching right gutter */
+    margin-right: 0;
 }
 #searchbars ul li form {
     display: inline;
@@ -867,7 +868,7 @@ table.grouping>tbody>tr.torrent>td:first-child+td+td, table.no_grouping>tbody>tr
 .last_read {
     width: 16px;
     height: 16px;
-    background: url('./images/dark-on-light/forum/go_last_read.png') no-repeat center center;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/dark-on-light/forum/go_last_read.png') no-repeat center center;
     margin-left: 5px;
     background-size: 16px;
     opacity: 0.65;
@@ -898,7 +899,7 @@ table.grouping>tbody>tr.torrent>td:first-child+td+td, table.no_grouping>tbody>tr
 tr.colhead_dark td span.last_read {
     width: 16px;
     height: 16px;
-    background: url('./images/light-on-dark/forum/go_last_read.png') no-repeat center center;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/light-on-dark/forum/go_last_read.png') no-repeat center center;
     margin-left: 5px;
     background-size: 16px;
     opacity: 0.9;
@@ -1172,13 +1173,13 @@ ul.poll li.graph {
 .show_torrents {
     width: 28px;
     height: 28px;
-    background: url('./images/dark-on-light/show.png') no-repeat center center;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/dark-on-light/show.png') no-repeat center center;
     background-size:10px;
 }
 .hide_torrents {
     width: 28px;
     height: 28px;
-    background: url('./images/dark-on-light/hide.png') no-repeat center center;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/dark-on-light/hide.png') no-repeat center center;
     background-size:10px;
 }
 .show_torrents_link {
@@ -1296,7 +1297,7 @@ tr.group_torrent td, tr.group td, tr.torrent td {
     margin-bottom: 10px;
 }
 .important_user .colhead_dark td>div:nth-child(1) {
-    background-image: url('./images/light-on-dark/forum/op.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/light-on-dark/forum/op.png');
     background-repeat: no-repeat;
     background-size: 20px;
     padding-left: 25px;
@@ -1317,15 +1318,15 @@ tr.group_torrent td, tr.group td, tr.torrent td {
     margin-left: 2px;
 }
 .unread_sticky, .read_sticky, .unread_locked_sticky, .read_locked_sticky {
-    background: url('./images/dark-on-light/forum/pin.png') no-repeat center center;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/dark-on-light/forum/pin.png') no-repeat center center;
     background-size: 100%;
 }
 .unread_locked, .read_locked {
-    background: url('./images/dark-on-light/forum/lock.png') no-repeat center center;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/dark-on-light/forum/lock.png') no-repeat center center;
     background-size: 75%;
 }
 .unread, .read {
-    background: url('./images/dark-on-light/forum/bubble.png') no-repeat center center;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/dark-on-light/forum/bubble.png') no-repeat center center;
     background-size: 85%;    
 }
 .unread_sticky, .unread_locked, .unread, .unread_locked_sticky {
@@ -1357,7 +1358,7 @@ tr.group_torrent td, tr.group td, tr.torrent td {
     left: 6px;
     height: 10px;
     width: 10px;
-    background: url('./images/dark-on-light/forum/lock.png') no-repeat center center;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/dark-on-light/forum/lock.png') no-repeat center center;
     background-size: 100%;
 }
 table.forum_post {
@@ -1693,7 +1694,7 @@ input[type=text], input[type='password'], input[type='search'], input[type='emai
     display: block;
     width: 11px;
     height: 11px;
-    background-image: url('./images/dark-on-light/clear-field.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/dark-on-light/clear-field.png');
     background-repeat: no-repeat;
     background-size: 11px;
     background-position: top left;
@@ -1707,7 +1708,7 @@ select[disabled=disabled]:hover, select[disabled=disabled]:focus, select[disable
     color: #dfdfdf;
 }
 select {
-    background: url('./images/dark-on-light/dropdown.png'), rgba(24, 32, 41, 0.3);
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/dark-on-light/dropdown.png'), rgba(24, 32, 41, 0.3);
     background-repeat: no-repeat, repeat;
     background-position: right 2px top 2px, 0 0;
     background-size: 28px;
@@ -1748,7 +1749,7 @@ select {
 }
 select:hover {
     border: 1px solid rgba(255, 255, 255, 0.3);
-    background: url('./images/dark-on-light/dropdown-hover.png'), rgba(24, 32, 41, 0.5);
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/dark-on-light/dropdown-hover.png'), rgba(24, 32, 41, 0.5);
     background-repeat: no-repeat, repeat;
     background-position: right 2px top 2px, 0 0;
     border-radius: 1px;
@@ -1763,7 +1764,7 @@ option:hover {
 }
 select:active, select:focus {
     border: 1px solid rgba(255, 255, 255, 0.3);
-    background: url('./images/dark-on-light/dropdown-pressed.png'), rgba(24, 32, 41, 0.5);
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/dark-on-light/dropdown-pressed.png'), rgba(24, 32, 41, 0.5);
     background-repeat: no-repeat, repeat;
     background-position: right 2px top 2px, 0 0;
     outline: none;
@@ -1835,44 +1836,44 @@ div[class~=tooltipster-content]>a {
     background-position: 0 4px !important;
 }
 .vote_artist_up, .vote_album_up {
-    background-image: url('./images/upvote.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/upvote.png');
     background-size: 10px;
 }
 .vote_artist_down, .vote_album_down {
-    background-image: url('./images/downvote.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/downvote.png');
     background-size: 10px;
 }
 .small_upvote, .small_upvoted, .vote_tag_up, .vote_artist_up.brackets, .vote_album_up.brackets {
-    background-image: url('./images/upvote-small.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/upvote-small.png');
     background-size:auto 5px;
 }
 .small_downvote, .small_downvoted, .vote_tag_down, .vote_artist_down.brackets, .vote_album_down.brackets {
-    background-image: url('./images/downvote-small.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/downvote-small.png');
     background-size:auto 5px;
 }
 .small_upvote:active, .small_upvoted:active, .vote_artist_up.brackets:active, .vote_album_up.brackets:active {
-    background-image: url('./images/upvote-small-pressed.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/upvote-small-pressed.png');
 }
 .small_downvote:active, .small_downvoted:active, .vote_artist_down.brackets:active, .vote_album_down.brackets:active {
-    background-image: url('./images/downvote-small-pressed.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/downvote-small-pressed.png');
 }
 #top10 td.votes_info_td>span:nth-child(1)>span:nth-child(1)>span.vote_album_up {
-    background-image: url('./images/upvote-small.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/upvote-small.png');
     background-position: 0 6px !important;
 }
 #top10 td.votes_info_td>span:nth-child(1)>span:nth-child(2)>span.vote_album_down {
-    background-image: url('./images/downvote-small.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/downvote-small.png');
     background-position: 0 6px !important;
 }
 .small_clearvote {
     color: transparent !important;
-    background-image: url('./images/light-on-dark/x.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/light-on-dark/x.png');
     background-repeat: no-repeat;
     background-position: 0 6px;
 }
 a[onclick^='remove_selection'], .remove.remove_artist a {
     color: transparent !important;
-    background-image: url('./images/light-on-dark/x.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/light-on-dark/x.png');
     background-repeat: no-repeat;
     background-position: 3px 4px;
     background-size: 8px;
@@ -2065,7 +2066,7 @@ input[type='search']
 }
 img[alt='Snatches']
 {
-	background: url('./images/light-on-dark/snatched.png') no-repeat scroll 0 0 transparent;
+	background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/light-on-dark/snatched.png') no-repeat scroll 0 0 transparent;
     background-size:15px;
     height: 15px;
     width: 0;
@@ -2074,7 +2075,7 @@ img[alt='Snatches']
 }
 img[alt='Seeders']
 {
-    background: url('./images/light-on-dark/seeders.png') no-repeat scroll 0 0 transparent;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/light-on-dark/seeders.png') no-repeat scroll 0 0 transparent;
     background-size:11px;
     height: 15px;
     padding-right: 11px;
@@ -2083,7 +2084,7 @@ img[alt='Seeders']
 }
 img[alt='Leechers']
 {
-    background: url('./images/light-on-dark/leechers.png') no-repeat scroll 0 0 transparent;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/light-on-dark/leechers.png') no-repeat scroll 0 0 transparent;
     background-size:11px;
     height: 15px;
     padding-right: 11px;
@@ -2092,7 +2093,7 @@ img[alt='Leechers']
 }
 img[src*='/donor.png']
 {
-    background: url('./images/user-icons/donor_1.png') no-repeat scroll 0 0 transparent;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/user-icons/donor_1.png') no-repeat scroll 0 0 transparent;
     background-size: 100%;
     height: 13px !important;
     padding-right: 15px !important;
@@ -2101,7 +2102,7 @@ img[src*='/donor.png']
 }
 img[src*='/donor_2.png']
 {
-    background: url('./images/user-icons/donor_2.png') no-repeat scroll 0 0 transparent;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/user-icons/donor_2.png') no-repeat scroll 0 0 transparent;
     background-size: 100%;
     height: 13px !important;
     padding-right: 15px !important;
@@ -2110,7 +2111,7 @@ img[src*='/donor_2.png']
 }
 img[src*='/donor_3.png']
 {
-    background: url('./images/user-icons/donor_3.png') no-repeat scroll 0 0 transparent;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/user-icons/donor_3.png') no-repeat scroll 0 0 transparent;
     background-size: 100%;
     height: 13px !important;
     padding-right: 15px !important;
@@ -2119,7 +2120,7 @@ img[src*='/donor_3.png']
 }
 img[src*='/donor_4.png']
 {
-    background: url('./images/user-icons/donor_4.png') no-repeat scroll 0 0 transparent;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/user-icons/donor_4.png') no-repeat scroll 0 0 transparent;
     background-size: 100%;
     height: 13px !important;
     padding-right: 15px !important;
@@ -2128,7 +2129,7 @@ img[src*='/donor_4.png']
 }
 img[src*='/donor_5.png']
 {
-    background: url('./images/user-icons/donor_5.png') no-repeat scroll 0 0 transparent;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/user-icons/donor_5.png') no-repeat scroll 0 0 transparent;
     background-size: 100%;
     height: 13px !important;
     padding-right: 15px !important;
@@ -2137,7 +2138,7 @@ img[src*='/donor_5.png']
 }
 img[src*='/donor_6.png']
 {
-    background: url('./images/user-icons/donor_6.png') no-repeat scroll 0 0 transparent;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/user-icons/donor_6.png') no-repeat scroll 0 0 transparent;
     background-size: 100%;
     height: 13px !important;
     padding-right: 15px !important;
@@ -2165,14 +2166,14 @@ input[type=text]:hover, input[type=text]:focus, input[type='search']:hover, inpu
     border: 1px solid rgba(0, 0, 0, 0.33) !important;
 }
 select {
-    background: url('./images/dark-on-light/dropdown.png'), #fff;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/dark-on-light/dropdown.png'), #fff;
     border: 1px solid rgba(0, 0, 0, 0.13);
     background-repeat: no-repeat, repeat;
     background-position: right 2px top 2px, 0 0;
     background-size: 28px;
 }
 select:hover, select:focus, select:active {
-    background: url('./images/dark-on-light/dropdown.png'), #fff;
+    background: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/dark-on-light/dropdown.png'), #fff;
     background-repeat: no-repeat, repeat;
     background-position: right 2px top 2px, 0 0;
     background-size: 28px;
@@ -2205,152 +2206,152 @@ span[style='color: red;']
 /**** Smileys ****/
 
 img[src*='smileys/angry.gif'] {
-    content: url('./images/smileys/angry.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/angry.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/biggrin.gif'] {
-    content: url('./images/smileys/biggrin.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/biggrin.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/blank.gif'] {
-    content: url('./images/smileys/blank.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/blank.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/blush.gif'] {
-    content: url('./images/smileys/blush.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/blush.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/cool.gif'] {
-    content: url('./images/smileys/cool.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/cool.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/creepy.gif'] {
-    content: url('./images/smileys/creepy.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/creepy.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/crying.gif'] {
-    content: url('./images/smileys/crying.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/crying.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/eyesright.gif'] {
-    content: url('./images/smileys/eyesright.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/eyesright.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/frown.gif'] {
-    content: url('./images/smileys/frown.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/frown.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/heart.gif'] {
-    content: url('./images/smileys/heart.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/heart.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/hmm.gif'] {
-    content: url('./images/smileys/hmm.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/hmm.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/laughing.gif'] {
-    content: url('./images/smileys/laughing.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/laughing.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/loveflac.gif'] {
-    content: url('./images/smileys/loveflac.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/loveflac.png');
     height: 31px;
     width: auto;
 }
 img[src*='smileys/ninja.gif'] {
-    content: url('./images/smileys/ninja.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/ninja.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/ohnoes.gif'] {
-    content: url('./images/smileys/ohnoes.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/ohnoes.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/ohshit.gif'] {
-    content: url('./images/smileys/ohshit.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/ohshit.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/omg.gif'] {
-    content: url('./images/smileys/omg.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/omg.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/paddle.gif'] {
-    content: url('./images/smileys/paddle.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/paddle.png');
     height: 29px;
     width: auto;
 }
 img[src*='smileys/pthlove.gif'] {
-    content: url('./images/smileys/redlove.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/redlove.png');
     height: 31px;
     width: auto;
 }
 img[src*='smileys/sad.gif'] {
-    content: url('./images/smileys/sad.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/sad.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/shifty.gif'] {
-    content: url('./images/smileys/shifty.gif');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/shifty.gif');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/sick.gif'] {
-    content: url('./images/smileys/sick.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/sick.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/smile.gif'] {
-    content: url('./images/smileys/smile.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/smile.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/sorry.gif'] {
-    content: url('./images/smileys/sorry.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/sorry.png');
     height: 31px;
     width: auto;
 }
 img[src*='smileys/thanks.gif'] {
-    content: url('./images/smileys/thanks.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/thanks.png');
     height: 31px;
     width: auto;
 }
 img[src*='smileys/tongue.gif'] {
-    content: url('./images/smileys/tongue.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/tongue.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/wink.gif'] {
-    content: url('./images/smileys/wink.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/wink.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/worried.gif'] {
-    content: url('./images/smileys/worried.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/worried.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/wtf.gif'] {
-    content: url('./images/smileys/wtf.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/wtf.png');
     height: 20px;
     width: 20px;
 }
 img[src*='smileys/wub.gif'] {
-    content: url('./images/smileys/wub.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/smileys/wub.png');
     height: 30px;
     width: auto;
 }
@@ -2404,25 +2405,25 @@ img[src*='smileys/wub.gif'] {
 
 
 .linkbox a[href*='last'] img {
-    content: url('./images/plugins-support/lastfm.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/plugins-support/lastfm.png');
     width: 15px;
     height: 15px;
     padding-left: 8px;
 }
 .linkbox a[href*='discogs'] img {
-    content: url('./images/plugins-support/discogs.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/plugins-support/discogs.png');
     width: 15px;
     height: 15px;
     padding-left: 8px;
 }
 .linkbox a[href*='musicbrainz'] img {
-    content: url('./images/plugins-support/musicbrainz.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/plugins-support/musicbrainz.png');
     width: 15px;
     height: 15px;
     padding-left: 8px;
 }
 .linkbox a[href*='rateyourmusic'] img {
-    content: url('./images/plugins-support/rateyourmusic.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/plugins-support/rateyourmusic.png');
     width: 15px;
     height: 15px;
     padding-left: 8px;
@@ -2439,7 +2440,7 @@ table.important_user_not_OP {
 }
 
 #scrollUp {
-	background-image: url('./images/plugins-support/scrollup.png');
+	background-image: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/plugins-support/scrollup.png');
     background-size: 30px;
     display: box;
 	color:#fff !important
@@ -2452,7 +2453,7 @@ table.important_user_not_OP {
     display: none
 }
 #scrollStop {
-	background-image: url('./images/plugins-support/pausescroll.png');
+	background-image: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/plugins-support/pausescroll.png');
     background-size: 30px;
     display: box;
 	color:#fff !important
@@ -2482,7 +2483,7 @@ div[style='width: 400px; height: 30px; background: rgba(64,64,64,0.8); border: d
 
 img[alt='The Apple Way']
 {
-    content: url('./images/user-icons/The-Apple-Way.png');
+    content: url('https://cdn.jsdelivr.net/gh/Phlooo/RedactHaze-stylesheet@master/images/user-icons/The-Apple-Way.png');
     height: 16px;
     width: 16px;
     margin-top: -2px;
