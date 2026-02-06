@@ -729,7 +729,6 @@ ul.thin li {
 #searchbars {
     box-sizing: border-box;
     width: 900px;
-    height: 34px;
     padding: 8px;
     border: 1px solid rgba(0, 0, 0, 0.07);
     background: rgba(24, 32, 41, 0.05);
@@ -746,6 +745,7 @@ ul.thin li {
     width: 100%;
     height: 34px;
     margin: 0;
+    display: block;
     padding: 11px 11px;
     background: rgb(255, 255, 255);
     border: 1px solid rgba(24, 32, 41, 0.3);
@@ -798,6 +798,7 @@ ul.thin li {
 #searchbars ul li form {
     display: block;
     margin: 0;
+    width: 100%;
 }
 .autocomplete-suggestions {
     font-size: 12px;
