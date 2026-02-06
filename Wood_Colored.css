@@ -786,7 +786,10 @@ ul.thin li {
     list-style: none;
 }
 #searchbars ul li:first-child {
-    margin-left: 46px;
+    margin-left: 2px; /* keep a small left gutter */
+}
+#searchbars ul li:last-child {
+    margin-right: 2px; /* keep a matching right gutter */
 }
 #searchbars ul li form {
     display: inline;
