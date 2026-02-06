@@ -1876,10 +1876,24 @@ a[onclick^='remove_selection'], .remove.remove_artist a {
     filter: invert(50%);
 }
 .remove.remove_tag a {
-    color: transparent !important;
-    background-image: url('./images/light-on-dark/x.png');
-    background-repeat: no-repeat;
-    background-position: 0 6px;
+    color: #cf1130 !important; /* show the literal X */
+    background-image: none !important;
+    font-weight: 700;
+    text-decoration: none;
+}
+/* Fallback: show literal ∧/∨ when up/down sprite images are unavailable. */
+.edit_tags_votes .vote_tag_up,
+.edit_tags_votes .vote_tag_down {
+    color: #182029 !important;
+    background-image: none !important;
+    width: auto;
+    min-width: 9px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.edit_tags_votes .vote_tag_up:hover,
+.edit_tags_votes .vote_tag_down:hover {
+    color: #02c2f2 !important;
 }
 a[onclick^='remove_selection'] .brackets:before, a[onclick^='remove_selection'] .brackets:after, .edit_tags_votes .brackets:after, .edit_tags_votes .brackets:before {
     content: none !important;
@@ -2136,7 +2150,8 @@ strong, b {
     background-repeat: no-repeat;
     background-position: 13px 14px;
     background-size: auto 22px;
-    border: none;
+    border-left: 1px solid rgba(33, 33, 33, 0.16);
+    border-right: 1px solid rgba(33, 33, 33, 0.16);
 }
 input[type=text], input[type='password'], input[type='search'], input[type='email'], #searchbars input {
     background: #fff;
