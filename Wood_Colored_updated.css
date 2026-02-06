@@ -727,9 +727,10 @@ ul.thin li {
     margin-bottom: 2px !important;
 }
 #searchbars {
-    width: 894px;
+    box-sizing: border-box;
+    width: 900px;
     height: 34px;
-    padding: 8px 2px;
+    padding: 8px;
     border: 1px solid rgba(0, 0, 0, 0.07);
     background: rgba(24, 32, 41, 0.05);
     background-image: none; /* removed magnifying glass */
@@ -742,7 +743,7 @@ ul.thin li {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 122px; /* tightened to fit extra search box */
+    width: 100%;
     height: 34px;
     margin: 0;
     padding: 11px 11px;
@@ -776,14 +777,17 @@ ul.thin li {
     margin: 0;
     padding: 0;
     list-style: none;
-    display: block;
+    display: flex;
+    gap: 6px;
 }
 #searchbars ul li {
-    display: inline;
-    float: left;
-    margin: 0 6px 0 0; /* tightened to fit extra search box */
+    display: block;
+    float: none;
+    margin: 0;
     position: relative;
     list-style: none;
+    flex: 1 1 0;
+    min-width: 0;
 }
 #searchbars ul li:first-child {
     margin-left: 0;
@@ -792,7 +796,7 @@ ul.thin li {
     margin-right: 0;
 }
 #searchbars ul li form {
-    display: inline;
+    display: block;
     margin: 0;
 }
 .autocomplete-suggestions {
