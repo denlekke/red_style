@@ -1,10 +1,11 @@
-// Adds a Collages search field to the top search bar between Torrents and Artists.
+// Adds a Collages search field to the top search bar between Artists and Requests.
 (function () {
   "use strict";
 
   function addCollageSearchbar() {
     var searchbars = document.getElementById("searchbars");
     var torrentsItem = document.getElementById("searchbar_torrents");
+    var artistsItem = document.getElementById("searchbar_artists");
     if (!searchbars || !torrentsItem || !torrentsItem.parentNode) {
       return;
     }
@@ -55,7 +56,11 @@
     listItem.appendChild(hiddenLabel);
     listItem.appendChild(form);
 
-    torrentsItem.parentNode.insertBefore(listItem, torrentsItem.nextSibling);
+    if (artistsItem && artistsItem.parentNode === torrentsItem.parentNode) {
+      artistsItem.parentNode.insertBefore(listItem, artistsItem.nextSibling);
+    } else {
+      torrentsItem.parentNode.insertBefore(listItem, torrentsItem.nextSibling);
+    }
   }
 
   if (document.readyState === "loading") {
