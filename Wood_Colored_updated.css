@@ -727,8 +727,7 @@ ul.thin li {
     margin-bottom: 2px !important;
 }
 #searchbars {
-    box-sizing: border-box;
-    width: 898px;
+    width: 894px;
     height: 34px;
     padding: 8px 2px;
     border: 1px solid rgba(0, 0, 0, 0.07);
